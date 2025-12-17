@@ -1,0 +1,53 @@
+h2
+{
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav
+{
+    background-color: #64d9cf;
+    padding: 10px;
+    border: 3px solid #201f1fa1;
+    border-radius: 5px;
+    text-align: left;
+    color: #dadee0;
+}
+
+a
+{
+    color: #212c39;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+h3
+{
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    text-align: left;
+    margin-top: 30px;
+}
+
+p
+{
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-top: 35px;
+}
+
+body
+{
+    background-color: #9291a0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
