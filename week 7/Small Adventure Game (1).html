@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--Declaration defining this document to be HTML5-->
+<html lang="en"> <!--Language of the webpage-->
+<head>  
+    <meta charset="UTF-8"> <!--Character encoding for the webpage-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Viewport settings for responsive design-->
+    <script src="Small Adventure Game (1).js"></script> <!--Link to Java Script-->
+    <link rel="stylesheet" href="Small Adventure Game (1).css"/> <!--Link to CSS file-->
+    <title>Small Adventure</title> <!--Title of the webpage-->
+</head>
+<body>
+    <h3>
+     <nav>  <!--This is a navigation bar that provides links to all the pages included in the assignment. -->
+        <a href = "Final Main Page.html">Refresh</a>
+        <br>
+        <a href = "boardsp2 (1).html">Boards</a>
+        <br>
+        <a href = "indexp2.html">Index</a>
+        <br>
+        <a href = "User Input.html">User Input</a>
+        <br>
+        <a href = "Palindrome Checker.html">Palindrome Checker</a>
+        <br>
+        <a href = "EDP.html">Event Driven Programming</a>
+        <br>
+        <a href = "Small Adventure Game (1).html">Small Adventure Game</a>
+        <br>
+        <a href = "MyTable.html">Table</a>
+        <br>
+     </nav>
+    </h3>
+
+    <h1>Welcome to the Small Adventure!</h1> <!--Main Heading/ Introduction to user-->
+    <p> <!--Paragraph giving user context-->
+        You find yourself in the middle of nowhere. There are two ways to go Up or Down.
+        <br>
+        Do you take the ladder up a tree or go down into a hole?
+    </p> <!--End of paragraph-->
+
+    <button onclick="choosePathOne()">Go Up the Tree</button> <!--Button for going up the tree-->
+    <br>
+    <button onclick="choosePathTwo()">Go Down the Hole</button> <!--Button for going down the hole-->
+
+    <div id = "results">You Choose:</div><!--Div to display results of user choice-->
+    
+</body>
+</html>
+
